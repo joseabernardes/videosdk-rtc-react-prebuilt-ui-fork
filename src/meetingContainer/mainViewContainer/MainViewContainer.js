@@ -206,7 +206,7 @@ const MainViewContainer = ({
     xs: 8,
   });
 
-  const gutter = 0;
+  const gutter = 4;
 
   const {
     mainViewParticipants,
@@ -450,7 +450,7 @@ const MainViewContainer = ({
     mainScreenViewActive,
   ]);
 
-  const spacing = reduceEdgeSpacing ? 0 : rowSpacing - gutter;
+  const spacing = reduceEdgeSpacing ? 4 : rowSpacing - gutter;
 
   const theme = useTheme();
 
