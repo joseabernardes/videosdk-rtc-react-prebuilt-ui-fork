@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/videosdk-rtc-react-prebuilt-ui-fork/static/css/main.6b321ce9.css",
+    "main.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/main.c9c796a6.js",
+    "reactPlayerYouTube.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerYouTube.5c48f3fa.chunk.js",
+    "reactPlayerSoundCloud.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerSoundCloud.246579dc.chunk.js",
+    "reactPlayerVimeo.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerVimeo.f57e86e0.chunk.js",
+    "reactPlayerMux.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerMux.cb6455bc.chunk.js",
+    "reactPlayerFacebook.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerFacebook.ca9eee69.chunk.js",
+    "reactPlayerStreamable.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerStreamable.a3ab86b5.chunk.js",
+    "reactPlayerWistia.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerWistia.b177efc2.chunk.js",
+    "reactPlayerTwitch.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerTwitch.31ebf51d.chunk.js",
+    "reactPlayerDailyMotion.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerDailyMotion.5db6a581.chunk.js",
+    "reactPlayerMixcloud.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerMixcloud.76bf5cfa.chunk.js",
+    "reactPlayerVidyard.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerVidyard.75ac8037.chunk.js",
+    "reactPlayerKaltura.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerKaltura.1175922c.chunk.js",
+    "reactPlayerFilePlayer.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerFilePlayer.53ef5210.chunk.js",
+    "reactPlayerPreview.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerPreview.f4181934.chunk.js",
+    "static/js/453.8256aec4.chunk.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/453.8256aec4.chunk.js",
+    "index.html": "/videosdk-rtc-react-prebuilt-ui-fork/index.html",
+    "main.6b321ce9.css.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/css/main.6b321ce9.css.map",
+    "main.c9c796a6.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/main.c9c796a6.js.map",
+    "reactPlayerYouTube.5c48f3fa.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerYouTube.5c48f3fa.chunk.js.map",
+    "reactPlayerSoundCloud.246579dc.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerSoundCloud.246579dc.chunk.js.map",
+    "reactPlayerVimeo.f57e86e0.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerVimeo.f57e86e0.chunk.js.map",
+    "reactPlayerMux.cb6455bc.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerMux.cb6455bc.chunk.js.map",
+    "reactPlayerFacebook.ca9eee69.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerFacebook.ca9eee69.chunk.js.map",
+    "reactPlayerStreamable.a3ab86b5.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerStreamable.a3ab86b5.chunk.js.map",
+    "reactPlayerWistia.b177efc2.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerWistia.b177efc2.chunk.js.map",
+    "reactPlayerTwitch.31ebf51d.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerTwitch.31ebf51d.chunk.js.map",
+    "reactPlayerDailyMotion.5db6a581.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerDailyMotion.5db6a581.chunk.js.map",
+    "reactPlayerMixcloud.76bf5cfa.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerMixcloud.76bf5cfa.chunk.js.map",
+    "reactPlayerVidyard.75ac8037.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerVidyard.75ac8037.chunk.js.map",
+    "reactPlayerKaltura.1175922c.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerKaltura.1175922c.chunk.js.map",
+    "reactPlayerFilePlayer.53ef5210.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerFilePlayer.53ef5210.chunk.js.map",
+    "reactPlayerPreview.f4181934.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerPreview.f4181934.chunk.js.map",
+    "453.8256aec4.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/453.8256aec4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b321ce9.css",
+    "static/js/main.c9c796a6.js"
+  ]
+}
