@@ -618,6 +618,10 @@ const MeetingContainer = () => {
   const _handleOnMeetingStateChanged = (data) => {
     const { state } = data;
 
+    if (!notificationAlertsEnabled) {
+      return;
+    }
+
     enqueueSnackbar(
       state === "CONNECTED"
         ? "Meeting is connected"
@@ -898,7 +902,6 @@ const MeetingContainer = () => {
                       />
                     )}
                     <ParticipantsAudioPlayer />
-                    <MediaRequested />
                     <RequestedEntries />
                   </>
                 ) : (
