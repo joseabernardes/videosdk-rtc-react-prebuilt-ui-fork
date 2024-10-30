@@ -410,7 +410,7 @@ function ParticipantListItem({ raisedHand, participantId }) {
                       appTheme === appThemes.DARK
                         ? theme.palette.darkTheme.slightLighter
                         : appTheme === appThemes.LIGHT
-                        ? theme.palette.lightTheme.two
+                        ? theme.palette.lightTheme.mai
                         : "",
                     color:
                       appTheme === appThemes.DARK

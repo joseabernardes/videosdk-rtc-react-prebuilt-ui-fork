@@ -937,24 +937,7 @@ const MeetingContainer = () => {
         <ClickAnywhereToContinue title="Waiting to join..." />
       ) : !mMeeting.isMeetingJoined ? (
         isRecorder ? (
-          <Box
-            style={{
-              display: "flex",
-              flex: 1,
-              flexDirection: "column",
-              height: "100vh",
-              justifyContent: "center",
-              alignItems: "center",
-              backgroundColor:
-                appTheme === appThemes.DARK
-                  ? theme.palette.darkTheme.slightLighter
-                  : appTheme === appThemes.LIGHT
-                  ? theme.palette.lightTheme.two
-                  : theme.palette.background.default,
-            }}
-          >
-            <RecordingLoader {...{ meetingLayout, appTheme }} />
-          </Box>
+          <WaitingToJoin />
         ) : (
           <WaitingToJoin />
         )

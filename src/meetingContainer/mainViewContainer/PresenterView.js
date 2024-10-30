@@ -43,6 +43,7 @@ const PresenterView = ({ presenterId }) => {
     selectedOutputDeviceId,
     setOverlaidInfoVisible,
     mainViewParticipants,
+    isRecorder,
     meetingLayout,
     animationsEnabled,
     appTheme,
@@ -146,7 +147,7 @@ const PresenterView = ({ presenterId }) => {
           appTheme === appThemes.DARK
             ? theme.palette.darkTheme.slightLighter
             : appTheme === appThemes.LIGHT
-            ? theme.palette.lightTheme.two
+            ? theme.palette.lightTheme.main
             : "black",
         alignItems:
           mobilePortrait && meetingLayout !== meetingLayouts.SPOTLIGHT
@@ -214,7 +215,7 @@ const PresenterView = ({ presenterId }) => {
                 appTheme === appThemes.DARK
                   ? theme.palette.darkTheme.slightLighter
                   : appTheme === appThemes.LIGHT
-                  ? theme.palette.lightTheme.two
+                  ? theme.palette.lightTheme.main
                   : "#333244",
             }}
           >
@@ -275,6 +276,7 @@ const PresenterView = ({ presenterId }) => {
           pin,
           unpin,
           pinState,
+          isRecorder,
           isPresenting: true,
           participantId: presenterId,
           mouseOver,

@@ -206,7 +206,7 @@ const MainViewContainer = ({
     xs: 8,
   });
 
-  const gutter = 4;
+  const gutter = 0;
 
   const {
     mainViewParticipants,
@@ -450,7 +450,7 @@ const MainViewContainer = ({
     mainScreenViewActive,
   ]);
 
-  const spacing = reduceEdgeSpacing ? 4 : rowSpacing - gutter;
+  const spacing = reduceEdgeSpacing ? 0 : rowSpacing - gutter;
 
   const theme = useTheme();
 
@@ -563,7 +563,7 @@ const MainViewContainer = ({
                   : undefined,
               transition: `width ${800 * (animationsEnabled ? 1 : 0.5)}ms`,
               transitionTimingFunction: "ease-in-out",
-              borderRadius: theme.spacing(1),
+              borderRadius: theme.spacing(0),
               overflow: "hidden",
               position: "relative",
             }}
@@ -652,6 +652,7 @@ const MainViewContainer = ({
                   ? 2 * gridVerticalSpacing
                   : 0),
               margin: spacing,
+              // marginLeft:'8px',
               transition: `all ${800 * (animationsEnabled ? 1 : 0.5)}ms`,
               transitionTimingFunction: "ease-in-out",
               paddingLeft:

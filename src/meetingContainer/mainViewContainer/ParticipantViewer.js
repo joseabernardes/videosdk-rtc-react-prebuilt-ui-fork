@@ -49,6 +49,9 @@ export const CornerDisplayName = ({
 }) => {
   const theme = useTheme();
 
+  // console.log("isRecorder", typeof isRecorder, isRecorder);
+  // isRecorder = true;
+
   const isMobile = useIsMobile();
   const isTab = useIsTab();
   const isLGDesktop = useIsLGDesktop();
@@ -428,16 +431,6 @@ export const CornerDisplayName = ({
                 cursor: "pointer",
               }}
             >
-              <NetworkIcon
-                color1={"#ffffff"}
-                color2={"#ffffff"}
-                color3={"#ffffff"}
-                color4={"#ffffff"}
-                style={{
-                  height: analyzerSize * 0.6,
-                  width: analyzerSize * 0.6,
-                }}
-              />
             </div>
             <div
               style={{
@@ -787,7 +780,7 @@ const ParticipantViewer = ({ participantId, quality, useVisibilitySensor }) => {
             appTheme === appThemes.DARK
               ? theme.palette.darkTheme.slightLighter
               : appTheme === appThemes.LIGHT
-              ? theme.palette.lightTheme.two
+              ? theme.palette.lightTheme.main
               : theme.palette.background.paper,
           position: "relative",
           overflow: "hidden",
