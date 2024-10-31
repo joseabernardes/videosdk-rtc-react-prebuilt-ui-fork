@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/videosdk-rtc-react-prebuilt-ui-fork/static/css/main.6b321ce9.css",
-    "main.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/main.e1d22097.js",
+    "main.css": "/videosdk-rtc-react-prebuilt-ui-fork/static/css/main.f1f02310.css",
+    "main.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/main.e164083d.js",
     "reactPlayerYouTube.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerYouTube.5c48f3fa.chunk.js",
     "reactPlayerSoundCloud.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerSoundCloud.246579dc.chunk.js",
     "reactPlayerVimeo.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerVimeo.f57e86e0.chunk.js",
@@ -18,8 +18,8 @@
     "reactPlayerPreview.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerPreview.f4181934.chunk.js",
     "static/js/453.8256aec4.chunk.js": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/453.8256aec4.chunk.js",
     "index.html": "/videosdk-rtc-react-prebuilt-ui-fork/index.html",
-    "main.6b321ce9.css.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/css/main.6b321ce9.css.map",
-    "main.e1d22097.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/main.e1d22097.js.map",
+    "main.f1f02310.css.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/css/main.f1f02310.css.map",
+    "main.e164083d.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/main.e164083d.js.map",
     "reactPlayerYouTube.5c48f3fa.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerYouTube.5c48f3fa.chunk.js.map",
     "reactPlayerSoundCloud.246579dc.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerSoundCloud.246579dc.chunk.js.map",
     "reactPlayerVimeo.f57e86e0.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/reactPlayerVimeo.f57e86e0.chunk.js.map",
@@ -37,7 +37,7 @@
     "453.8256aec4.chunk.js.map": "/videosdk-rtc-react-prebuilt-ui-fork/static/js/453.8256aec4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b321ce9.css",
-    "static/js/main.e1d22097.js"
+    "static/css/main.f1f02310.css",
+    "static/js/main.e164083d.js"
   ]
 }
