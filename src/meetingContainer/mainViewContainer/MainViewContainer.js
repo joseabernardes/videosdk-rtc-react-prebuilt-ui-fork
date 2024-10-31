@@ -154,6 +154,10 @@ const MotionParticipantContainer = ({
         style={{
           height: `calc(100% - ${2 * gutter}px)`,
           width: `calc(100% - ${2 * gutter}px)`,
+          // width: '100%',
+          // height: '100%',
+          display: 'flex',
+          alignItems: 'center',
         }}
       >
         <MemoizedParticipant
@@ -206,8 +210,6 @@ const MainViewContainer = ({
     sm: 12,
     xs: 8,
   });
-
-  const gutter = 0;
 
   const {
     mainViewParticipants,
@@ -452,6 +454,8 @@ const MainViewContainer = ({
     mainScreenViewActive,
   ]);
 
+  const gutter = singleRow.length > 1 ?  8 : 0;
+
   const spacing = reduceEdgeSpacing ? 0 : rowSpacing - gutter;
 
   const theme = useTheme();
@@ -560,12 +564,14 @@ const MainViewContainer = ({
                   ? appTheme === appThemes.DARK
                     ? theme.palette.darkTheme.slightLighter
                     : appTheme === appThemes.LIGHT
-                    ? theme.palette.lightTheme.two
+                    ? theme.palette.lightTheme.main
                     : theme.palette.background.paper
                   : undefined,
               transition: `width ${800 * (animationsEnabled ? 1 : 0.5)}ms`,
               transitionTimingFunction: "ease-in-out",
               borderRadius: theme.spacing(0),
+              display:'flex',
+              alignItems:'center',
               overflow: "hidden",
               position: "relative",
             }}
@@ -643,7 +649,7 @@ const MainViewContainer = ({
                   ? theme.palette.lightTheme.main
                   : theme.palette.background.default,
               overflowX: "hidden",
-              overflowY: mainScreenViewActive ? "scroll" : "hidden",
+              overflowY: mainScreenViewActive ? "hidden" : "hidden",
               width: mainScreenViewActive
                 ? actualPresentingSideBarWidth
                 : width - 2 * spacing,

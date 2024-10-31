@@ -141,33 +141,37 @@ const PresenterView = ({ presenterId }) => {
       }}
       style={{
         position: "relative",
-        height: "100%",
+        height: "auto",
         width: "100%",
+        borderRadius: '8px',
         backgroundColor:
           appTheme === appThemes.DARK
             ? theme.palette.darkTheme.slightLighter
             : appTheme === appThemes.LIGHT
-            ? theme.palette.lightTheme.main
+            ? theme.palette.lightTheme.two
             : "black",
-        alignItems:
-          mobilePortrait && meetingLayout !== meetingLayouts.SPOTLIGHT
-            ? undefined
-            : "center",
-        justifyContent:
-          mobilePortrait && meetingLayout !== meetingLayouts.SPOTLIGHT
-            ? undefined
-            : "center",
-        display:
-          mobilePortrait && meetingLayout !== meetingLayouts.SPOTLIGHT
-            ? undefined
-            : "flex",
+        // alignItems:
+        //   mobilePortrait && meetingLayout !== meetingLayouts.SPOTLIGHT
+        //     ? undefined
+        //     : "center",
+        // justifyContent:
+        //   mobilePortrait && meetingLayout !== meetingLayouts.SPOTLIGHT
+        //     ? undefined
+        //     : "center",
+        // display:
+        //   mobilePortrait && meetingLayout !== meetingLayouts.SPOTLIGHT
+        //     ? undefined
+        //     : "flex",
+        // display: "flex",
+        // alignItems: "center",
       }}
     >
       <audio autoPlay playsInline controls={false} ref={audioPlayer} />
 
       <div
         style={{
-          height: mobilePortrait ? "50%" : "100%",
+          // height: mobilePortrait ? "50%" : "100%",
+          height:"auto",
           width: "100%",
           position: "relative",
         }}
@@ -188,7 +192,7 @@ const PresenterView = ({ presenterId }) => {
             //
             url={mediaStream}
             //
-            height={"100%"}
+            height={"auto"}
             width={"100%"}
             style={{
               filter: isLocal ? "blur(1rem)" : undefined,

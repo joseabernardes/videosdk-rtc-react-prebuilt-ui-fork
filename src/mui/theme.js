@@ -35,7 +35,7 @@ export default function generateMuiTheme(type, primary, secondary) {
         },
         lightTheme: {
           main: "rgb(242 242 242)", //"#F3F4F8",
-          two: "#EEF0F2",
+          two: "white",
           three: "#D3D7DA", //"#CCD2DB",
           four: "#8896A4",
           five: "#6F767E",
